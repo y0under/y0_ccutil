@@ -3,6 +3,12 @@
 
 #include <chrono>
 
+/*
+ * what: mesure elapsed time
+ * usage: 1. make instance of class Timer
+ *        2. do Timer::start()
+ *        3. do Timer::get_elapsed_time_ms() when you want to get elapsed time.
+ */
 class Timer {
   private:
     std::chrono::system_clock::time_point start_;
