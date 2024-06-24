@@ -1,6 +1,8 @@
 #ifndef Y0_CCUTIL_MATH_VECTOR3_H
 #define Y0_CCUTIL_MATH_VECTOR3_H
 
+#include <cmath>
+
 namespace y0_ccutil {
   template<typename T>
   struct Vector3 {
@@ -25,6 +27,10 @@ namespace y0_ccutil {
 
       T SquareLength() {
         return x * x + y * y + z * z;
+      }
+
+      T Length {
+        return std::sqrt(x * x + y * y + z * z);
       }
   };
 } // namespace y0_ccutil
