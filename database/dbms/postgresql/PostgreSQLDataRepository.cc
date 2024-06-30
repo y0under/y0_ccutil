@@ -178,7 +178,6 @@ namespace y0_ccutil {
     wk.commit();
   }
 
-
   /**
    * @brief for anti sql injection
    *
