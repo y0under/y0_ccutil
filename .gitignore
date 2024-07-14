@@ -1,3 +1,6 @@
 optimization/time/bin
 bin
 test
+html
+Doxyfile
+latex
